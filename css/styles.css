@@ -1,4 +1,7 @@
 /** @format */
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: Roboto;
 }
@@ -33,6 +36,8 @@ nav a {
   display: inline-block;
   justify-content: center;
 }
+.innit div div {
+}
 .innit div div h1 {
   color: #fff;
   font-size: 60px;
@@ -55,11 +60,13 @@ nav a {
   font-weight: 300;
   line-height: 28px;
 }
-/* .button {
+.button {
   position: absolute;
-  background-color: green;
-  font-size: 16px;
-} */
+  border: none;
+  background-color: #fff;
+  padding: 15px 39px;
+  color: #000;
+}
 .tou {
   font-family: Roboto;
 }
@@ -117,7 +124,14 @@ h3 {
   font-style: normal;
   font-weight: 300;
 }
+.init button {
+  position: absolute;
+  border: none;
+  padding: 13px 52px;
+  background-color: #fff;
+}
 .titile {
+  position: relative;
   font-family: Poppins;
   display: flex;
   justify-content: center;
@@ -163,6 +177,7 @@ h3 {
   height: 143px;
 }
 .titile div div ul li a {
+  padding: 12px 51px;
   text-decoration: none;
   background-color: #090808;
   color: #fff;
@@ -199,10 +214,25 @@ footer div .footer__end div {
   text-align: center;
   justify-content: start;
 }
-/* .footer__top .bitton__ty {
+.footer__top .bitton__ty {
   position: absolute;
   border-radius: 5px;
   font-family: Montserrat;
   background-color: #fabb04;
   padding: 17px 30px;
-} */
+}
+.footer__top {
+  background-color: #0c0f38;
+
+  border-radius: 30px;
+}
+form input {
+  display: flex;
+  border-radius: 15px;
+  padding: 14px 20px;
+  margin-bottom: 20px;
+  width: 430px;
+  height: 52px;
+  color: #999;
+  font-family: Poppins;
+}
