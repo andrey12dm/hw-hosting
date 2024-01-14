@@ -24,10 +24,10 @@ nav a {
   color: #fff;
 }
 .innit {
+  font-family: Roboto;
   background-color: #0c0f38;
 }
 .innit div {
-  display: flex;
   display: inline-block;
   justify-content: center;
 }
@@ -53,6 +53,11 @@ nav a {
   font-weight: 300;
   line-height: 28px;
 }
+/* .button {
+  position: absolute;
+  background-color: green;
+  font-size: 16px;
+} */
 .tou {
   font-family: Roboto;
 }
@@ -111,6 +116,7 @@ h3 {
   font-weight: 300;
 }
 .titile {
+  font-family: Poppins;
   display: flex;
   justify-content: center;
   margin: 0px -30px;
@@ -160,6 +166,7 @@ h3 {
   color: #fff;
 }
 footer {
+  font-family: Poppins;
   background-color: #0c0f38;
   height: 658px;
 }
@@ -188,4 +195,12 @@ footer div .footer__end div {
   width: 650px;
   height: 84px;
   text-align: center;
+  justify-content: start;
 }
+/* .footer__top .bitton__ty {
+  position: absolute;
+  border-radius: 5px;
+  font-family: Montserrat;
+  background-color: #fabb04;
+  padding: 17px 30px;
+} */
