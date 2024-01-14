@@ -36,8 +36,6 @@ nav a {
   display: inline-block;
   justify-content: center;
 }
-.innit div div {
-}
 .innit div div h1 {
   color: #fff;
   font-size: 60px;
@@ -223,7 +221,6 @@ footer div .footer__end div {
 }
 .footer__top {
   background-color: #0c0f38;
-
   border-radius: 30px;
 }
 form input {
